@@ -43,8 +43,8 @@ async function mintNFT(tokenURI) {
         }
       )
     })
-    .catch((err) => {
-      console.log(" Promise failed:", err)
+    .catch((err) => { 
+      console.log("Promise failed:", err)
     })
 }
 mintNFT("ipfs://QmawyigGonqefGKs2suDmCc3D1zqZ85BCgYsBGjFrtksH2");
